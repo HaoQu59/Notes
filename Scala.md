@@ -1,3 +1,2 @@
 # Scala 语言入门
-Scala是一门以Java虚拟机（JVM）为运行环境并将$\color{#FF0000}{面向对象}$和$\color{#FF0000}{函数式编程}$的特性结合在一起的$\color{#FF0000}{静态类型编程语言}$（静态语言需要提前编译如：Java、C、C++等，动态语言如：js）。
-<font color='red'> text </font>
+Scala是一门以Java虚拟机（JVM）为运行环境并将<label style="color:red">面向对象</label>和$\color{#FF0000}{函数式编程}$的特性结合在一起的$\color{#FF0000}{静态类型编程语言}$（静态语言需要提前编译如：Java、C、C++等，动态语言如：js）。
