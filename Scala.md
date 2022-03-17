@@ -60,3 +60,5 @@ Java没有引入Scala类库，添加classpath就可以通过java来执行scala�
 ```
 java -cp %SCALA_HOME%/lib/scala-library.jar; HelloScala
 ```
+
+`HelloScala.class`为伴生对象的伴生类，`HelloScala$.class`为伴生对象的所属类
