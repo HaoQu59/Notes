@@ -52,5 +52,10 @@ scalac HelloScala.scala
 scala HelloScala
 ```
 
-和Java编译如出一辙，Java编译后生成一个.class文件，而Scala编译后生成两个.scala文件分别为`HelloScala$.class`和`HelloScala.class`。**这两个文件不能通过java进行运行**
+和Java编译如出一辙，Java编译后生成一个.class文件，而Scala编译后生成两个.scala文件分别为`HelloScala$.class`和`HelloScala.class`。
+**这两个文件不能通过java进行运行**
+Java没有引入Scala类库，添加classpath就可以通过java来执行scala编译的字节码文件
 
+```
+java -cp %SCALA_HOME%/lib/scala-library.jar; HelloScala
+```
