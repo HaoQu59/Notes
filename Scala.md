@@ -62,3 +62,9 @@ java -cp %SCALA_HOME%/lib/scala-library.jar; HelloScala
 ```
 
 `HelloScala.class`为伴生对象的伴生类，`HelloScala$.class`为伴生对象的所属类
+
+# IDEA环境配置
+
+使用IntelliJ IDEA：
+
+- 创建Maven项目
