@@ -23,3 +23,8 @@ Windows中下载安装配置环境变量：
 - 添加`%SCALA_HOME%\bin`到path环境变量
 
 配置完成后在CMD下输入scala检测是否配置成功
+
+CMD下输入scala进入交互式环境，可以在其中编写代码
+```
+scala>
+```
