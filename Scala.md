@@ -34,3 +34,20 @@ a + b
 
 println("Hello, world!")
 ```
+
+新建`HelloScala.scala`文件
+
+```
+object HelloScala{
+	def main(args: Array[String]): Unit = {
+		println("Hello Scala")
+	}
+}
+```
+
+CMD输入
+
+```
+scalac HelloScala.scala
+scala HelloScala
+```
