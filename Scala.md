@@ -31,4 +31,7 @@ scala>
 val a = 10
 val b = 20
 a + b
+
+println("Hello, world!")
+
 ```
