@@ -19,5 +19,5 @@ Scala是一门以Java虚拟机（JVM）为运行环境并将**面向对象**和*
 # 环境配置
 
 Windows中下载安装配置环境变量：
-- 类似于java配置'SCALA_HOME'为安装目录
-- 添加'%SCALA_HOME%\bin'到path环境变量
+- 类似于java配置`SCALA_HOME`为安装目录
+- 添加`%SCALA_HOME%\bin`到path环境变量
