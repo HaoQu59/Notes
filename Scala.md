@@ -83,3 +83,23 @@ object HelloWorld {
 ```
 
 - Ctrl + Shift + F10运行
+- 可以直接调用Java的类库，例如System.out.println("Hello")
+- 特殊需要引入的Java类库需要import
+
+```scala
+package chapter01
+/*
+  object: 关键字，声明一个单例对象（伴生对象
+ */
+object HelloWorld {
+    /*
+      main 方法：从外部可以字节调用执行的方法
+      def 方法名称(参数名称: 参数类型): 返回值类型 = { 方法体 }
+      [] 表示泛型
+     */
+  def main(args: Array[String]): Unit = {
+    println("hello world")
+    System.out.println("hello scala")
+  }
+}
+```
