@@ -71,3 +71,15 @@ java -cp %SCALA_HOME%/lib/scala-library.jar; HelloScala
 - idea可以管理安装scala
 - Maven项目默认用Java写，在`main`目录下新建目录`scala`，然后将该目录标记(Mark Directory as)Source Root
 - 对项目Add Framework support添加Scala SDK
+
+```scala
+package chapter01
+
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("hello world")
+  }
+}
+```
+
+- Ctrl + Shift + F10运行
