@@ -89,7 +89,7 @@ object HelloWorld {
 ```scala
 package chapter01
 /*
-  object: 关键字，声明一个单例对象（伴生对象
+  object: 关键字，声明一个单例对象(伴生对象)
  */
 object HelloWorld {
     /*
