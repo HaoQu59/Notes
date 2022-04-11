@@ -151,3 +151,9 @@ Scala库源码与API文档：
 - ctrl+点击scala代码
 - https://www.scala-lang.org/
 - 下载Scala安装包离线查看
+
+# 变量和数据类型
+注释：（使用方法和Java完全一样）
+- 单行注释: //
+- 多行注释： /**/
+- 文档注释： /** */
