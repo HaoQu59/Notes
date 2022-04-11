@@ -193,3 +193,51 @@ var 变量名 [:变量类型] = 初始值    var i:Int = 10
 val 常量名 [:常量类型] = 初始值    val j:Int = 20
 // 能用常量的地方不用变量
 ```
+
+案例：
+```scala
+package chapter01
+
+class Student(var name: String, var age: Int) {
+  def printInfo(): Unit = {
+    println(name + " " + age + " " + Student.school)
+  }
+}
+
+// 伴生对象
+object Student{
+  val school: String = "Uni"
+}
+```
+
+```scala
+package chapter02
+
+import chapter01.Student
+
+object Test02_Variable {
+  def main(args: Array[String]): Unit = {
+    // 声明一个变量通用语法
+    var a: Int = 10
+    // 声明变量时，类型可以省略，编译器自动推导
+    var a1 = 10
+    val b1 = 20
+    // 类型确定后，就不能修改，说明Scala是强数据类型语言
+    var a2 = 15 // a2类型为Int
+    // a2 = "ABC"
+    // 变量声明时，必须要有初始值
+    // var a3: Int
+    // 声明/定义一个变量时，可以使用var或者val来修饰，var为变量，val为常量
+    a1 = 12
+    // b1 = 23 不合法
+
+    var alice = new Student("alice", 20)
+    alice = new Student("alice", 20)
+    alice = null
+    // 集合数据类型里可以修改
+    val bob = new Student("bob", 23)
+    bob.age = 24
+    bob.printInfo()
+  }
+}
+```
