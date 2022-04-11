@@ -170,7 +170,6 @@ object Comment {
    */
   def main(args: Array[String]): Unit = {
     // 单行注释
-
     println("hello")
   }
 }
