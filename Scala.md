@@ -147,3 +147,7 @@ public class Student {
     }
 }
 ```
+Scala库源码与API文档：
+- ctrl+点击scala代码
+- https://www.scala-lang.org/
+- 下载Scala安装包离线查看
