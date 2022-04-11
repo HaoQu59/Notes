@@ -166,7 +166,7 @@ Scala库源码与API文档：
 object Comment {
   /**
    * 文档注释
-   * @param args
+   * @param args 外部传入参数
    */
   def main(args: Array[String]): Unit = {
     // 单行注释
