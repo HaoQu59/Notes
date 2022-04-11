@@ -102,6 +102,7 @@ object HelloWorld {
 ```
 
 定义一个等价类区分Scala和Java
+- 名称必须一样且在同一个文件中
 ```scala
 
 class Student(name: String, age: Int) {
