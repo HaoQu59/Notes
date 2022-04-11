@@ -157,3 +157,21 @@ Scala库源码与API文档：
 - 单行注释: //
 - 多行注释： /**/
 - 文档注释： /** */
+
+```scala
+/*
+  多行注释
+ */
+
+object Comment {
+  /**
+   * 文档注释
+   * @param args
+   */
+  def main(args: Array[String]): Unit = {
+    // 单行注释
+
+    println("hello")
+  }
+}
+```
