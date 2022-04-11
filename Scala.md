@@ -73,8 +73,6 @@ java -cp %SCALA_HOME%/lib/scala-library.jar; HelloScala
 - 对项目Add Framework support添加Scala SDK
 
 ```scala
-package chapter01
-
 object HelloWorld {
   def main(args: Array[String]): Unit = {
     println("hello world")
@@ -87,7 +85,6 @@ object HelloWorld {
 - 特殊需要引入的Java类库需要import
 
 ```scala
-package chapter01
 /*
   object: 关键字，声明一个单例对象(伴生对象)
  */
